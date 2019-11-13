@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159921340260",
+    "firebase_url": "https://alphacut-58307.firebaseio.com",
+    "project_id": "alphacut-58307",
+    "storage_bucket": "alphacut-58307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159921340260:android:70940cd502c427b7a78471",
+        "android_client_info": {
+          "package_name": "com.kalanyr.alphacut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159921340260-vov394obvebgelv1qfnahgqr2s3d451v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalanyr.alphacut",
+            "certificate_hash": "f95ea56418340526bf7e139548c042c8259c2585"
+          }
+        },
+        {
+          "client_id": "159921340260-ms5nf9rllpt5vhmk41sfk4eopplf4t6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArT0o3LaApDL8Z9PiH-qyTux9LUScGqcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159921340260-ms5nf9rllpt5vhmk41sfk4eopplf4t6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

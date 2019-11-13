@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alphacut</string>
+    <string name="FACEBOOK_APP_ID">983461368689308</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[ACCOUNT_KIT_CLIENT_TOKEN]</string>
+</resources>
