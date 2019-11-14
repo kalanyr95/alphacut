@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kalanyr.alphacut"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:7:5-33:19
+18        android:allowBackup="true"
+18-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.kalanyr.alphacut.HomeActivity" />
+27-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:14:9-59
+27-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:14:19-47
+28
+29        <meta-data
+29-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:16:9-18:48
+30            android:name="com.facebook.accountkit.ApplicationName"
+30-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:17:13-67
+31            android:value="@string/app_name" />
+31-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:18:13-45
+32        <meta-data
+32-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:19:9-21:55
+33            android:name="com.facebook.sdk.ApplicationId"
+33-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:20:13-58
+34            android:value="@string/FACEBOOK_APP_ID" />
+34-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:21:13-52
+35        <meta-data
+35-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:22:9-24:64
+36            android:name="com.facebook.accountkit.ClientToken"
+36-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:23:13-63
+37            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+37-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:24:13-61
+38
+39        <activity android:name="com.kalanyr.alphacut.MainActivity" >
+39-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:26:9-32:20
+39-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:26:19-47
+40            <intent-filter>
+40-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:27:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:28:17-69
+41-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:28:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:30:17-77
+43-->C:\Users\A708510\Alphacut\app\src\main\AndroidManifest.xml:30:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:29:9-34:58
+47            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+47-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:30:13-73
+48            android:label="@string/com_accountkit_button_log_in"
+48-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:31:13-65
+49            android:launchMode="singleTop"
+49-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:32:13-43
+50            android:theme="@style/Theme.AccountKit"
+50-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:33:13-52
+51            android:windowSoftInputMode="adjustResize" />
+51-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:34:13-55
+52        <activity
+52-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:35:9-38:40
+53            android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity"
+53-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:36:13-86
+54            android:exported="true"
+54-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:37:13-36
+55            android:noHistory="true" />
+55-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:38:13-37
+56        <!--
+57             The initialization ContentProvider will call AccountKit.initialize automatically
+58             with the application context. This config is merged in with the host app's manifest,
+59             but there can only be one provider with the same authority activated at any given
+60             point; so if the end user has two or more different apps that use AccountKit, only the
+61             first one will be able to use the provider. To work around this problem, we use the
+62             following placeholder in the authority to identify each host application as if it was
+63             a completely different provider.
+64        -->
+65        <provider
+65-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:49:9-52:40
+66            android:name="com.facebook.accountkit.internal.AccountKitInitProvider"
+66-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:50:13-83
+67            android:authorities="com.kalanyr.alphacut.AccountKitInitialization"
+67-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:51:13-76
+68            android:exported="false" />
+68-->[com.facebook.android:account-kit-sdk:4.39.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\554b481aeb9bd5b1c72fddc0fcf8ce47\jetified-account-kit-sdk-4.39.0\AndroidManifest.xml:52:13-37
+69
+70        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+70-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:17:9-21:19
+70-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:17:18-89
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:18:13-20:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:19:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:18.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\bdbf1d11a4672bdfd3df32cb3024fbe3\jetified-firebase-firestore-18.1.0\AndroidManifest.xml:20:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+77            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+77-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+78            android:excludeFromRecents="true"
+78-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+81        <!--
+82            Service handling Google Sign-In user revocation. For apps that do not integrate with
+83            Google Sign-In, this service will never be started.
+84        -->
+85        <service
+85-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+86            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+86-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+87            android:exported="true"
+87-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+88            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+88-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\408c1fcd2cd93e521a659bd6b8e6697e\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\0ccf4318491f7ec991edeb9587042e6e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\0ccf4318491f7ec991edeb9587042e6e\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\0ccf4318491f7ec991edeb9587042e6e\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\0ccf4318491f7ec991edeb9587042e6e\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:16.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\a6b341418bbe30dcd10ca5a1e6a00d15\jetified-firebase-common-16.1.0\AndroidManifest.xml:12:9-16:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:16.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\a6b341418bbe30dcd10ca5a1e6a00d15\jetified-firebase-common-16.1.0\AndroidManifest.xml:13:13-77
+97            android:authorities="com.kalanyr.alphacut.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:16.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\a6b341418bbe30dcd10ca5a1e6a00d15\jetified-firebase-common-16.1.0\AndroidManifest.xml:14:13-72
+98            android:exported="false"
+98-->[com.google.firebase:firebase-common:16.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\a6b341418bbe30dcd10ca5a1e6a00d15\jetified-firebase-common-16.1.0\AndroidManifest.xml:15:13-37
+99            android:initOrder="100" />
+99-->[com.google.firebase:firebase-common:16.1.0] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\a6b341418bbe30dcd10ca5a1e6a00d15\jetified-firebase-common-16.1.0\AndroidManifest.xml:16:13-36
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\e7a8427235ab4449fc8fcca386709ae5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\e7a8427235ab4449fc8fcca386709ae5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\A708510\.gradle\caches\transforms-2\files-2.1\e7a8427235ab4449fc8fcca386709ae5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+104    </application>
+105
+106</manifest>
